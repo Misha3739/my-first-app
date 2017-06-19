@@ -1,0 +1,6 @@
+<button type="button" class="btn-primary" (click)="btnToggleClick()">{{toggleButtonText}}</button>
+<p *ngIf="toggleButtonText==='Hide secret'">Secret password is: {{secretPassword}}</p>
+<div *ngFor="let log of logArray">
+  <p [ngClass]="{'color-log' : log > 4}"> {{log}}. Button clicked. {{getDate()}}</p>
+
+</div>
