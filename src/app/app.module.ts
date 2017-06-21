@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import {ServerComponent} from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import {UserComponentComponent} from './user-component/user-component.component';
-import {ToggleTaskComponent} from './toggle-task/toggle-task.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +13,6 @@ import {ToggleTaskComponent} from './toggle-task/toggle-task.component';
     ServerComponent,
     ServersComponent,
     UserComponentComponent,
-    ToggleTaskComponent
   ],
   imports: [
     BrowserModule,
